@@ -1,3 +1,4 @@
+
 <!doctype html>
 <html lang="de">
 <head>
@@ -31,7 +32,7 @@
     Diese Datenschutzerklärung beschreibt, welche Daten bei der Nutzung der App magID und
     dieser Website verarbeitet werden.
   </p>
-  <p class="meta">Stand: 10. Oktober 2026</p>
+  <p class="meta">Stand: 15. Oktober 2026</p>
 </section>
 
 <section>
@@ -54,6 +55,11 @@
     gespeichert werden. Die wesentlichen von dir angelegten Inhalte werden lokal auf deinem
     Gerät gespeichert.
   </p>
+  <p>
+    Der Schutz deiner persönlichen Inhalte ist uns wichtig. magID soll dir ermöglichen,
+    deine Produkte und Vorlieben selbst zu verwalten, ohne diese Informationen für
+    allgemeine Nutzungsanalysen weiterzugeben.
+  </p>
 
   <h2>3. Lokal gespeicherte App-Daten</h2>
   <p>Je nach Nutzung können insbesondere folgende Daten lokal gespeichert werden:</p>
@@ -63,7 +69,7 @@
     <li>Produktbewertungen, Favoriten und profilbezogene Präferenzen,</li>
     <li>Profile und das aktuell ausgewählte Profil,</li>
     <li>Produktbilder, Hauptbild-Zuordnung und Quellen-/Lizenzhinweise zu Bildern,</li>
-    <li>App-Einstellungen wie Theme, Akzentfarbe und Statistik-Einstellung.</li>
+    <li>App-Einstellungen wie Theme, Akzentfarbe und die Einstellung für Nutzungsstatistiken.</li>
   </ul>
   <p>
     Diese Daten werden nicht automatisch auf einen von mir betriebenen Server übertragen.
@@ -126,21 +132,47 @@
     des von dir gewählten Dienstes.
   </p>
 
-  <h2>8. Nutzungsstatistiken: Firebase Analytics und Mixpanel</h2>
+  <h2 id="nutzungsstatistiken">8. Nutzungsstatistiken: Firebase Analytics und Mixpanel</h2>
   <p>
-    magID verwendet Firebase Analytics von Google und Mixpanel, um allgemeine
-    Nutzungsstatistiken zur App zu erhalten, etwa zu App-Starts, Bildschirmaufrufen oder
-    der Verwendung bestimmter Funktionen. Diese Dienste können technische Informationen
-    und pseudonyme Kennungen verarbeiten. magID verwendet dafür kein eigenes
-    Benutzerkonto-System.
+    magID verwendet mit deiner ausdrücklichen Zustimmung Firebase Analytics von Google
+    und Mixpanel, um allgemeine Nutzungsstatistiken zu erfassen.
   </p>
   <p>
-    Die Übermittlung von Nutzungsstatistiken kann in den Einstellungen von magID
-    deaktiviert werden. Die Statistik-Funktion dient der Verbesserung und Weiterentwicklung
-    der App und nicht der Auswertung deiner persönlichen Produktinhalte.
+    Diese Statistiken helfen uns zu verstehen, welche Funktionen genutzt werden, wie häufig
+    bestimmte Aktionen stattfinden und an welchen Stellen wir magID verbessern können.
+    Dabei können beispielsweise App-Starts, Bildschirmaufrufe und die Nutzung einzelner
+    Funktionen erfasst werden.
   </p>
   <p>
-    Anbieterinformationen:
+    <strong>Deine persönlichen App-Inhalte stehen dabei nicht im Mittelpunkt.</strong>
+    Die von magID gezielt ausgelösten Analyse-Ereignisse enthalten keine Produktnamen,
+    Profilnamen, persönlichen Notizen oder Produktfotos.
+    Wir möchten verstehen, wie magID genutzt wird – nicht, was du persönlich speicherst.
+  </p>
+  <p>
+    Die verwendeten Analysedienste können technische Informationen wie App-Version,
+    Betriebssystem, Gerätetyp, Nutzungszeitpunkte und pseudonyme App- oder Gerätekennungen
+    verarbeiten. Bei der Übertragung können außerdem Verbindungsdaten wie die IP-Adresse
+    anfallen. Solche technischen Kennungen können datenschutzrechtlich personenbezogene
+    Daten darstellen, auch wenn magID kein Benutzerkonto verwendet.
+  </p>
+  <p>
+    <strong>Die Nutzungsstatistiken sind standardmäßig deaktiviert.</strong>
+    Du kannst sie in den App-Einstellungen freiwillig aktivieren. Die Verwendung von
+    magID ist auch ohne Zustimmung möglich und wird dadurch nicht eingeschränkt.
+  </p>
+  <p>
+    Du kannst deine Zustimmung jederzeit in den App-Einstellungen widerrufen.
+    Die weitere Erfassung von Nutzungsstatistiken wird dann deaktiviert.
+    Ein Widerruf wirkt für die Zukunft und führt nicht automatisch zur Löschung
+    bereits zuvor übermittelter Daten.
+  </p>
+  <p>
+    Die Rechtsgrundlage für diese optionale Verarbeitung ist deine Einwilligung
+    gemäß Art. 6 Abs. 1 lit. a DSGVO.
+  </p>
+  <p>
+    Weitere Informationen zu den eingesetzten Analysediensten:
     <a href="https://policies.google.com/privacy" rel="noopener noreferrer">Google-Datenschutzerklärung</a>
     und
     <a href="https://mixpanel.com/legal/privacy-policy/" rel="noopener noreferrer">Mixpanel Privacy Statement</a>.
@@ -151,11 +183,15 @@
     magID verwendet Firebase Crashlytics von Google zur Erkennung und Analyse von Abstürzen
     und technischen Fehlern. Dabei können insbesondere Stacktraces, App-Version,
     Betriebssystem- und Geräteinformationen, Zeitpunkte, technische Kennungen sowie
-    Diagnoseinformationen verarbeitet werden. Crashlytics dient der Stabilität und
-    Fehlerbehebung der App.
+    Diagnoseinformationen verarbeitet werden.
   </p>
   <p>
-    Die Crashlytics-Fehlerdiagnose ist nicht Teil des Schalters für Nutzungsstatistiken.
+    Die Fehlerdiagnose dient dazu, technische Probleme zu erkennen, Abstürze zu beheben
+    und die Stabilität sowie Sicherheit von magID zu verbessern.
+  </p>
+  <p>
+    Die Crashlytics-Fehlerdiagnose ist nicht Teil des Schalters für Nutzungsstatistiken
+    und wird unabhängig von der optionalen Nutzungsanalyse verwendet.
   </p>
   <p>
     Weitere Informationen:
@@ -169,50 +205,123 @@
     Dabei können technische Verbindungs- und Gerätedaten verarbeitet werden. Von dir
     eingegebene Produktdaten werden dafür nicht benötigt.
   </p>
+  <p>
+    Diese Funktion dient dem technischen Betrieb und der Bereitstellung bestimmter
+    App-Konfigurationen und ist unabhängig von deiner Entscheidung über optionale
+    Nutzungsstatistiken.
+  </p>
 
   <h2>11. Rechtsgrundlagen</h2>
   <p>
-    Soweit personenbezogene Daten verarbeitet werden, erfolgt dies je nach Verarbeitung
-    insbesondere zur Bereitstellung der von dir angeforderten App-Funktionen
-    (Art. 6 Abs. 1 lit. b DSGVO), auf Grundlage einer Einwilligung
-    (Art. 6 Abs. 1 lit. a DSGVO) oder aufgrund berechtigter Interessen an
-    Fehlerdiagnose, Sicherheit und Verbesserung der App
-    (Art. 6 Abs. 1 lit. f DSGVO), soweit diese Rechtsgrundlage im Einzelfall anwendbar ist.
+    Soweit personenbezogene Daten verarbeitet werden, erfolgt dies abhängig vom
+    jeweiligen Verarbeitungszweck auf folgenden Rechtsgrundlagen:
+  </p>
+  <ul>
+    <li>
+      <strong>Bereitstellung von App-Funktionen:</strong>
+      Art. 6 Abs. 1 lit. b DSGVO, soweit die Verarbeitung zur Erfüllung
+      eines Nutzungsverhältnisses erforderlich ist.
+    </li>
+    <li>
+      <strong>Freiwillige Nutzungsstatistiken:</strong>
+      Art. 6 Abs. 1 lit. a DSGVO (Einwilligung).
+    </li>
+    <li>
+      <strong>Fehlerdiagnose, technische Stabilität und Sicherheit:</strong>
+      Art. 6 Abs. 1 lit. f DSGVO (berechtigtes Interesse),
+      soweit diese Rechtsgrundlage für die konkrete Verarbeitung anwendbar ist.
+    </li>
+  </ul>
+  <p>
+    Für nicht technisch notwendige Zugriffe auf Informationen deines Endgeräts
+    kann zusätzlich eine Einwilligung nach den einschlägigen Vorschriften
+    des Telekommunikationsgesetzes erforderlich sein.
   </p>
   <p>
-    Eine erteilte Einwilligung kann mit Wirkung für die Zukunft widerrufen werden,
-    beispielsweise indem du die Nutzungsstatistiken in den App-Einstellungen deaktivierst.
+    Eine erteilte Einwilligung kann jederzeit mit Wirkung für die Zukunft widerrufen
+    werden, beispielsweise indem du die Nutzungsstatistiken in den App-Einstellungen
+    deaktivierst.
   </p>
 
   <h2>12. Empfänger und Drittlandübermittlungen</h2>
   <p>
-    Bei der Nutzung von Google/Firebase, Mixpanel und der Open-Facts-Infrastruktur können
-    Daten durch externe Anbieter verarbeitet werden. Je nach Dienst kann eine Verarbeitung
-    außerhalb des Europäischen Wirtschaftsraums stattfinden. Die jeweiligen Anbieter
-    verwenden hierfür die nach ihren Angaben vorgesehenen vertraglichen und gesetzlichen
-    Datenschutzgarantien.
+    Im Rahmen bestimmter App-Funktionen können Daten an externe Dienste
+    übermittelt und dort verarbeitet werden.
+  </p>
+  <ul>
+    <li>
+      <strong>Google/Firebase:</strong>
+      Firebase Analytics (bei Einwilligung), Firebase Crashlytics
+      und Firebase Remote Config.
+    </li>
+    <li>
+      <strong>Mixpanel:</strong>
+      Verarbeitung optionaler Nutzungsstatistiken bei erteilter Einwilligung.
+    </li>
+    <li>
+      <strong>Open-Facts-Infrastruktur:</strong>
+      Abruf von Produktinformationen und Bildern bei einer von dir
+      ausgelösten Produktabfrage.
+    </li>
+  </ul>
+  <p>
+    Je nach Dienst und eingesetzter Infrastruktur kann eine Verarbeitung
+    personenbezogener Daten auch außerhalb des Europäischen Wirtschaftsraums,
+    insbesondere in den USA, stattfinden.
+  </p>
+  <p>
+    Für solche Übermittlungen sind die jeweils anwendbaren datenschutzrechtlichen
+    Voraussetzungen und gegebenenfalls geeignete Garantien erforderlich.
+    Informationen zu den Datenschutzmaßnahmen und möglichen internationalen
+    Datenübermittlungen findest du in den Datenschutzhinweisen der jeweiligen Anbieter.
   </p>
 
   <h2>13. Speicherdauer und Löschung</h2>
   <p>
     Von dir angelegte magID-Inhalte bleiben lokal gespeichert, bis du sie löschst,
-    die App-Daten entfernst oder die App deinstallierst. Selbst exportierte Dateien werden
-    von magID nicht automatisch gelöscht.
+    die App-Daten entfernst oder die App deinstallierst. Selbst exportierte Dateien
+    werden von magID nicht automatisch gelöscht.
   </p>
   <p>
-    Für Daten, die von Firebase/Google, Mixpanel oder der Open-Facts-Infrastruktur verarbeitet
-    werden, gelten zusätzlich die jeweiligen Aufbewahrungsregeln und Konfigurationen dieser
-    Dienste.
-    magID führt kein zentrales Benutzerkonto, über das lokale Produktdaten serverseitig
-    gespeichert würden.
+    Deine Entscheidung über die Erfassung optionaler Nutzungsstatistiken wird
+    lokal gespeichert, damit magID diese Einstellung bei späteren App-Starts
+    berücksichtigen kann. Du kannst sie jederzeit ändern.
+  </p>
+  <p>
+    Für Daten, die von Firebase/Google, Mixpanel oder der Open-Facts-Infrastruktur
+    verarbeitet werden, gelten zusätzlich die jeweiligen Aufbewahrungsregeln
+    und die tatsächlich verwendeten Projektkonfigurationen.
+    Die Speicherdauer kann daher je nach Dienst und Datenart unterschiedlich sein.
+  </p>
+  <p>
+    Die Deaktivierung von Nutzungsstatistiken verhindert die weitere Erfassung
+    über die betreffenden Analysedienste, führt jedoch nicht automatisch zur
+    Löschung bereits übermittelter Informationen.
+    Bei Fragen zur Löschung solcher Daten kannst du dich an die unter
+    Abschnitt 16 angegebene Kontaktadresse wenden.
+  </p>
+  <p>
+    magID führt kein zentrales Benutzerkonto, über das lokale Produktdaten
+    serverseitig gespeichert würden.
   </p>
 
   <h2>14. Deine Rechte</h2>
   <p>
-    Soweit die gesetzlichen Voraussetzungen vorliegen, hast du insbesondere das Recht auf
-    Auskunft, Berichtigung, Löschung, Einschränkung der Verarbeitung, Datenübertragbarkeit
-    und Widerspruch. Bei Verarbeitungen auf Grundlage einer Einwilligung kannst du diese
-    für die Zukunft widerrufen.
+    Soweit die gesetzlichen Voraussetzungen vorliegen, hast du insbesondere
+    folgende Rechte:
+  </p>
+  <ul>
+    <li>Auskunft über die Verarbeitung deiner personenbezogenen Daten,</li>
+    <li>Berichtigung unrichtiger Daten,</li>
+    <li>Löschung personenbezogener Daten,</li>
+    <li>Einschränkung der Verarbeitung,</li>
+    <li>Datenübertragbarkeit, soweit anwendbar,</li>
+    <li>Widerspruch gegen bestimmte Verarbeitungen,</li>
+    <li>Widerruf einer erteilten Einwilligung mit Wirkung für die Zukunft.</li>
+  </ul>
+  <p>
+    Zur Ausübung deiner Rechte kannst du dich an die unter Abschnitt 16
+    angegebene E-Mail-Adresse wenden.
   </p>
   <p>
     In Österreich besteht außerdem das Recht, sich bei der
@@ -235,7 +344,8 @@
 
   <h2>16. Kontakt</h2>
   <p>
-    Fragen zum Datenschutz kannst du an
+    Fragen zum Datenschutz oder zur Verarbeitung und Löschung personenbezogener
+    Daten kannst du an
     <a href="mailto:r2d2und-dev@yahoo.de">r2d2und-dev@yahoo.de</a> richten.
   </p>
 

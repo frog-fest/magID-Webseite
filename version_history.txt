@@ -1,3 +1,7 @@
+0.1.1 – 2026-11-18
+* Korrektur: Liefervertrag für ChatGPT in COMMON_RULES.md und AGENTS.md eindeutig geregelt – ZIP nur mit geänderten Dateien, kein externer Regel- oder Standsabgleich.
+* Keine Änderungen an veröffentlichten Website-Inhalten.
+
 0.1.0 – 2026-11-17
 * Projektversionierung eingeführt; bisher keine lokale Projektversion/Paketnummer gefunden.
 * AGENTS.md mit gemeinsamen Arbeitsregeln, lokaler/GitHub-Quellenwahl und Website-spezifischen Hinweisen ergänzt.

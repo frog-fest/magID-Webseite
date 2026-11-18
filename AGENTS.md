@@ -2,11 +2,11 @@
 
 ## Gemeinsame Regeln und eigenständiger Einstieg
 
-- Zu Beginn jedes Entwicklungsauftrags einmal `../flutter-development/COMMON_RULES.md` lesen. ChatGPT liest stattdessen `COMMON_RULES.md` aus `frog-fest/flutter-development` (https://github.com/frog-fest/flutter-development). Bereits gelesene Inhalte nur bei Änderungen erneut abrufen; keine weitere Dokumentenanalyse allein deshalb.
+- Zu Beginn jedes Entwicklungsauftrags einmal `../flutter-development/COMMON_RULES.md` lesen. ChatGPT verwendet die im Chat oder Projekt-ZIP bereitgestellte Fassung; kein externes Nachladen von GitHub. Bereits gelesene Inhalte nur bei Änderungen erneut abrufen; keine weitere Dokumentenanalyse allein deshalb.
 - Bei fehlendem Zugriff kurz darauf hinweisen und nach diesen Kernregeln weiterarbeiten. Website-spezifisches Wissen bleibt im Projekt; unbekannte zentrale Ergänzungen nicht als geprüft ausgeben. Nur bei entscheidenden fehlenden Informationen nachfragen.
-- Codex verwendet lokale Dateien ohne GitHub-Abgleich. ChatGPT klärt den GitHub-Ausgangsstand einmal, sofern noch nicht bestätigt; ein aktuelles Projekt-ZIP kann stattdessen Grundlage sein.
+- Codex lokal arbeitet in der bereitgestellten Arbeitskopie ohne GitHub-Abgleich. Für ChatGPT gilt der im Chat oder Projekt-ZIP bereitgestellte Stand als bestätigt; kein erneutes Prüfen oder Herunterladen. GitHub nur auf ausdrücklichen Auftrag lesend verwenden.
 - Nur beauftragte Änderungen, keine zusätzlichen Refactorings oder Freigabeschleifen. Neueste ausdrückliche Nutzerentscheidungen gehen vor. Bestehende Änderungen schützen; keine automatischen Commits/Pushes, destruktiven Befehle oder Upgrades.
-- Codex liefert lokale Dateien/Diffs, ChatGPT fertige ZIP-Änderungspakete mit vollständigen Dateien und relativen Pfaden; Löschungen nennen. Keine Hilfsskripte oder Platzhalter als Ersatz für fertige Dateien.
+- Lieferung verbindlich nach dem Abschnitt „Liefervertrag – ChatGPT (alle Projekte)“ in `COMMON_RULES.md`: ein ZIP mit ausschließlich den geänderten Dateien und relativen Pfaden. Codex lokal liefert Dateien/Diffs, kein ZIP-Zwang. Keine Ersatzformate oder Anleitungen statt des Pakets.
 
 ## Versionierung und Website
 

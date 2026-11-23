@@ -1,3 +1,15 @@
+0.1.5 – 2026-11-23
+* Datenschutzerklärung: Teilen von Produkten, Kombinationen und Rezepten als Datei ergänzt; Stand 23. November 2026.
+
+0.1.4 – 2026-11-23
+* Datenschutzerklärung: Texterkennung auf dem Gerät (Produkttext, Screenshot-Import) und Übernahme geteilter Listen ergänzt; Stand 23. November 2026.
+
+0.1.3 – 2026-11-23
+* Datenschutzerklärung: Einkaufslisten bei den lokal gespeicherten Daten und beim Import/Export ergänzt; Stand 23. November 2026.
+
+0.1.2 – 2026-11-22
+* Datenschutzerklärung: Google-Play-In-App-Updates und Remote-Config-Steuerung der Update-Prüfung ergänzt; Stand 22. November 2026.
+
 0.1.1 – 2026-11-18
 * Korrektur: Liefervertrag für ChatGPT in COMMON_RULES.md und AGENTS.md eindeutig geregelt – ZIP nur mit geänderten Dateien, kein externer Regel- oder Standsabgleich.
 * Keine Änderungen an veröffentlichten Website-Inhalten.

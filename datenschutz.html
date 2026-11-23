@@ -32,7 +32,7 @@
     Diese Datenschutzerklärung beschreibt, welche Daten bei der Nutzung der App magID und
     dieser Website verarbeitet werden.
   </p>
-  <p class="meta">Stand: 15. Oktober 2026</p>
+  <p class="meta">Stand: 23. November 2026</p>
 </section>
 
 <section>
@@ -68,6 +68,7 @@
     <li>Barcode, Seriennummer, Kaufdatum, Kaufpreis, Notizen, Kategorien und Unterkategorien,</li>
     <li>Produktbewertungen, Favoriten und profilbezogene Präferenzen,</li>
     <li>Profile und das aktuell ausgewählte Profil,</li>
+    <li>Einkaufslisten je Profil mit Einträgen, deren Zustand (z.&nbsp;B. gebraucht oder im Wagen) und dem Zeitpunkt des letzten Einkaufs,</li>
     <li>Produktbilder, Hauptbild-Zuordnung und Quellen-/Lizenzhinweise zu Bildern,</li>
     <li>App-Einstellungen wie Theme, Akzentfarbe und die Einstellung für Nutzungsstatistiken.</li>
   </ul>
@@ -100,6 +101,18 @@
     Der erkannte Barcode kann anschließend für eine von dir ausgelöste Produktabfrage an
     die Open-Facts-Infrastruktur übermittelt werden.
   </p>
+  <p>
+    Für das Erfassen von Produkttexten und für den Import einer Einkaufsliste aus einem
+    Screenshot nutzt magID die Texterkennung von Google ML Kit, die auf deinem Gerät
+    ausgeführt wird. Einen Screenshot wählst du dafür selbst aus. magID wertet ihn nur für
+    den Import aus und speichert das Bild nicht. Übernommen werden nur die Einträge, die
+    du in der Vorschau bestätigst.
+  </p>
+  <p>
+    Teilst du eine Liste aus einer anderen App (z.&nbsp;B. Google Notizen) mit magID, wird
+    der geteilte Text lokal ausgewertet und nach deiner Bestätigung in die Einkaufsliste
+    übernommen.
+  </p>
 
   <h2>6. Open-Facts-Produktabfrage</h2>
   <p>
@@ -124,12 +137,20 @@
 
   <h2>7. Import und Export</h2>
   <p>
-    magID kann lokale Daten einschließlich Produkten, Profilen, Kategorien und Produktbildern
+    magID kann lokale Daten einschließlich Produkten, Profilen, Kategorien, Einkaufslisten und Produktbildern
     exportieren und wieder importieren. Exportdateien werden zunächst lokal erzeugt.
     Wenn du eine Exportdatei über Funktionen des Betriebssystems an eine andere App,
     einen Cloudspeicher oder einen anderen Dienst weitergibst, erfolgt diese Weitergabe
     aufgrund deiner Auswahl. Für die weitere Verarbeitung gelten dann die Bedingungen
     des von dir gewählten Dienstes.
+  </p>
+  <p>
+    Mit „Mit magID teilen“ kannst du ausgewählte Produkte, Kombinationen und Rezepte als
+    Datei an andere Personen schicken. Die Datei enthält die ausgewählten Produktdaten,
+    auf Wunsch die Hauptbilder, deinen Profilnamen, deine Bewertungen zu diesen Produkten
+    und einen optionalen Gruß. Kaufdatum, Kaufpreis, Seriennummer, Preisverläufe und
+    Einkaufslisten sind nicht enthalten. Die Weitergabe erfolgt über die von dir gewählte
+    App; beim Empfänger werden die Daten erst nach Bestätigung übernommen.
   </p>
 
   <h2 id="nutzungsstatistiken">8. Nutzungsstatistiken: Firebase Analytics und Mixpanel</h2>
@@ -198,7 +219,7 @@
     <a href="https://firebase.google.com/support/privacy" rel="noopener noreferrer">Privacy and Security in Firebase</a>.
   </p>
 
-  <h2>10. Firebase Remote Config</h2>
+  <h2>10. Firebase Remote Config und App-Updates</h2>
   <p>
     magID verwendet Firebase Remote Config, um technische Konfigurationswerte für die App
     abzurufen, beispielsweise für appseitige Konfigurationen oder Versions-/Feature-Steuerung.
@@ -209,6 +230,13 @@
     Diese Funktion dient dem technischen Betrieb und der Bereitstellung bestimmter
     App-Konfigurationen und ist unabhängig von deiner Entscheidung über optionale
     Nutzungsstatistiken.
+  </p>
+  <p>
+    Über die Google-Play-Funktion für In-App-Updates prüft magID beim Start, ob in Google Play
+    eine neue Version verfügbar ist, und kann sie herunterladen und installieren. Über Remote
+    Config wird festgelegt, ob diese Prüfung aktiv ist und ab welcher Version ein Update
+    erforderlich ist. Dabei verarbeitet Google Play technische Verbindungs- und Gerätedaten;
+    deine Produktdaten werden dafür nicht benötigt.
   </p>
 
   <h2>11. Rechtsgrundlagen</h2>
@@ -227,7 +255,7 @@
       Art. 6 Abs. 1 lit. a DSGVO (Einwilligung).
     </li>
     <li>
-      <strong>Fehlerdiagnose, technische Stabilität und Sicherheit:</strong>
+      <strong>Fehlerdiagnose, technische Stabilität, Updates und Sicherheit:</strong>
       Art. 6 Abs. 1 lit. f DSGVO (berechtigtes Interesse),
       soweit diese Rechtsgrundlage für die konkrete Verarbeitung anwendbar ist.
     </li>
@@ -252,7 +280,7 @@
     <li>
       <strong>Google/Firebase:</strong>
       Firebase Analytics (bei Einwilligung), Firebase Crashlytics
-      und Firebase Remote Config.
+      und Firebase Remote Config; Google Play für In-App-Updates.
     </li>
     <li>
       <strong>Mixpanel:</strong>

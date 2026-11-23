@@ -1,3 +1,6 @@
+0.1.6 – 2026-11-23
+* Datenschutzerklärung: optionaler Passwortschutz für Sicherungen und geteilte Dateien ergänzt.
+
 0.1.5 – 2026-11-23
 * Datenschutzerklärung: Teilen von Produkten, Kombinationen und Rezepten als Datei ergänzt; Stand 23. November 2026.
 

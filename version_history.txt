@@ -1,3 +1,6 @@
+0.1.12 – 2026-11-27
+* Datenschutzerklärung: Verknüpfen eines geteilten Amazon-Artikels mit einem vorhandenen Produkt ergänzt.
+
 0.1.11 – 2026-11-27
 * Datenschutzerklärung: aus Amazon geteilte Produkte ergänzt (Auswertung nur des geteilten Textes auf dem Gerät, kein Abruf bei Amazon, gespeicherte Artikelnummer).
 

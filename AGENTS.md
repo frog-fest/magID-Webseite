@@ -10,7 +10,7 @@
 
 ## Versionierung und Website
 
-- Bei jedem Änderungsauftrag auch lokal `VERSION` erhöhen und `version_history.txt` ergänzen, auch bei Dokumentation. PATCH für Korrekturen/Dokumentation; MINOR/MAJOR nach Funktionsumfang. Reines Lesen erhöht nichts. ZIPs verwenden die Projektversion; keine Nummer wiederverwenden.
+- Jede Änderung, die in die Website eingeht (Seiten, Texte, Assets, Skripte), erhöht sofort `VERSION` und ergänzt `version_history.txt` – auch kleine Nachbesserungen; nie weitere Änderungen unter einer bereits vergebenen Version nachschieben. PATCH für Korrekturen; MINOR/MAJOR nach Funktionsumfang. Reine Doku-Änderungen (`AGENTS.md`, Projektregeln, Notizen) erhöhen nichts, reines Lesen ebenfalls nicht. ZIPs verwenden die Projektversion; keine Nummer wiederverwenden.
 - Dies ist eine statische Website. Die Flutter-/App-Buildregeln der gemeinsamen Datei gelten hier nicht; keine `pubspec.yaml` oder Flutter-Tests anlegen.
 - Bestehende HTML-/CSS-Struktur, Navigation, responsive Darstellung und relative Links erhalten. Kein Framework oder Buildsystem ohne Auftrag einführen.
 - Impressum, Datenschutz, Nutzungsbedingungen und Kontaktdaten nicht nebenbei inhaltlich ändern. Nur beauftragte Inhalte bearbeiten; keine Veröffentlichung ohne Auftrag.

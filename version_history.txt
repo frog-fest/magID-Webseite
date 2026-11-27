@@ -1,3 +1,8 @@
+0.1.7 – 2026-11-27
+* Datenschutzerklärung: Einlesen von Kassenbons ergänzt (Verarbeitung auf dem Gerät, gespeicherte Preise, Bon-Kennung und gelernte Zuordnungen).
+* Datenschutzerklärung: Inhalt von Sicherungen und geteilten Dateien berichtigt, insbesondere Einkaufslisten beim Teilen der Einkaufsliste.
+* Datenschutzerklärung: Update-Prüfung auch bei der Rückkehr in die App; Stand 27. November 2026.
+
 0.1.6 – 2026-11-23
 * Datenschutzerklärung: optionaler Passwortschutz für Sicherungen und geteilte Dateien ergänzt.
 

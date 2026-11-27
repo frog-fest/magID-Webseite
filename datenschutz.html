@@ -32,7 +32,7 @@
     Diese Datenschutzerklärung beschreibt, welche Daten bei der Nutzung der App magID und
     dieser Website verarbeitet werden.
   </p>
-  <p class="meta">Stand: 23. November 2026</p>
+  <p class="meta">Stand: 27. November 2026</p>
 </section>
 
 <section>
@@ -69,6 +69,8 @@
     <li>Produktbewertungen, Favoriten und profilbezogene Präferenzen,</li>
     <li>Profile und das aktuell ausgewählte Profil,</li>
     <li>Einkaufslisten je Profil mit Einträgen, deren Zustand (z.&nbsp;B. gebraucht oder im Wagen) und dem Zeitpunkt des letzten Einkaufs,</li>
+    <li>Preise zu Produkten mit Datum, Händler bzw. Handelskette und Rabattangaben, bei eingelesenen Kassenbons auch eine Bon-Kennung,</li>
+    <li>gelernte Zuordnungen von Bon-Zeilen zu Produkten,</li>
     <li>Produktbilder, Hauptbild-Zuordnung und Quellen-/Lizenzhinweise zu Bildern,</li>
     <li>App-Einstellungen wie Theme, Akzentfarbe und die Einstellung für Nutzungsstatistiken.</li>
   </ul>
@@ -114,6 +116,28 @@
     übernommen.
   </p>
 
+  <h3>Kassenbons einlesen</h3>
+  <p>
+    Du kannst einen Kassenbon als PDF oder Foto einlesen: aus einer Datei, aus deinen
+    Bildern, mit der Kamera oder indem du ihn aus einer anderen App mit magID teilst.
+    Bei einem PDF liest magID den enthaltenen Text, bei einem Foto nutzt magID die
+    Texterkennung von Google ML Kit. Beides läuft auf deinem Gerät. magID überträgt den
+    Bon dafür nicht an einen Server.
+  </p>
+  <p>
+    Ausgewertet werden die Angaben, die für den Preisvergleich nötig sind, insbesondere
+    Artikel, Mengen, Preise, Rabatte, Datum, Handelskette und eine Bon-Kennung. Nach
+    deiner Bestätigung in der Vorschau speichert magID die übernommenen Preise und merkt
+    sich die Zuordnung von Bon-Zeilen zu Produkten. Beim Händler wird nur die Kette bzw.
+    deren Vertriebsform gespeichert, nicht die Filiale oder der Ort.
+  </p>
+  <p>
+    Das PDF bzw. Foto des Bons wird nicht in die Daten von magID übernommen. Beim
+    Auswählen, Fotografieren oder Teilen können vorübergehende Kopien im Zwischenspeicher
+    des Geräts entstehen. Ein Kassenbon kann auch Angaben enthalten, die magID nicht
+    benötigt; diese werden nicht als Preisdaten gespeichert.
+  </p>
+
   <h2>6. Open-Facts-Produktabfrage</h2>
   <p>
     magID kann Produktinformationen und Produktbilder aus Open Food Facts, Open Beauty Facts,
@@ -137,8 +161,8 @@
 
   <h2>7. Import und Export</h2>
   <p>
-    magID kann lokale Daten einschließlich Produkten, Profilen, Kategorien, Einkaufslisten und Produktbildern
-    exportieren und wieder importieren. Exportdateien werden zunächst lokal erzeugt.
+    magID kann lokale Daten einschließlich Produkten, Profilen, Kategorien, Einkaufslisten, Händlern,
+    Preisen, gelernten Bon-Zuordnungen und Produktbildern exportieren und wieder importieren. Exportdateien werden zunächst lokal erzeugt.
     Wenn du eine Exportdatei über Funktionen des Betriebssystems an eine andere App,
     einen Cloudspeicher oder einen anderen Dienst weitergibst, erfolgt diese Weitergabe
     aufgrund deiner Auswahl. Für die weitere Verarbeitung gelten dann die Bedingungen
@@ -146,11 +170,14 @@
   </p>
   <p>
     Mit „Mit magID teilen“ kannst du ausgewählte Produkte, Kombinationen und Rezepte als
-    Datei an andere Personen schicken. Die Datei enthält die ausgewählten Produktdaten,
-    auf Wunsch die Hauptbilder, deinen Profilnamen, deine Bewertungen zu diesen Produkten
-    und einen optionalen Gruß. Kaufdatum, Kaufpreis, Seriennummer, Preisverläufe und
-    Einkaufslisten sind nicht enthalten. Die Weitergabe erfolgt über die von dir gewählte
-    App; beim Empfänger werden die Daten erst nach Bestätigung übernommen.
+    Datei an andere Personen schicken. Die Datei enthält die ausgewählten Produktdaten
+    mit ihren Kategorien, von dir selbst angelegte Händler dieser Produkte, gelernte
+    Bon-Zuordnungen zu diesen Produkten, deinen Profilnamen, auf Wunsch die Hauptbilder
+    und deine Bewertungen zu diesen Produkten sowie einen optionalen Gruß. Kaufdatum,
+    Kaufpreis, Seriennummer und Preisverläufe sind nicht enthalten. Einträge deiner
+    Einkaufsliste sind nur enthalten, wenn du die Einkaufsliste teilst; dann gehen ihre
+    offenen Einträge mit. Die Weitergabe erfolgt über die von dir gewählte App; beim
+    Empfänger werden die Daten erst nach Bestätigung übernommen.
   </p>
   <p>
     Sicherungen und geteilte Dateien kannst du mit einem Passwort schützen. Die Datei wird
@@ -238,8 +265,8 @@
     Nutzungsstatistiken.
   </p>
   <p>
-    Über die Google-Play-Funktion für In-App-Updates prüft magID beim Start, ob in Google Play
-    eine neue Version verfügbar ist, und kann sie herunterladen und installieren. Über Remote
+    Über die Google-Play-Funktion für In-App-Updates prüft magID beim Start und bei der
+    Rückkehr in die App, ob in Google Play eine neue Version verfügbar ist, und kann sie herunterladen und installieren. Über Remote
     Config wird festgelegt, ob diese Prüfung aktiv ist und ab welcher Version ein Update
     erforderlich ist. Dabei verarbeitet Google Play technische Verbindungs- und Gerätedaten;
     deine Produktdaten werden dafür nicht benötigt.

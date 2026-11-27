@@ -1,3 +1,6 @@
+0.1.10 – 2026-11-27
+* Datenschutzerklärung: Einlesen von Amazon-Rechnungen ergänzt (Verarbeitung auf dem Gerät, übernommene Angaben, Zuordnung über die Artikelnummer).
+
 0.1.9 – 2026-11-27
 * Datenschutzerklärung: Einlesen von Rezeptzutaten aus PDF-Dateien ergänzt, einschließlich der lokalen Prüfung geteilter PDFs auf einen Kassenbon.
 
